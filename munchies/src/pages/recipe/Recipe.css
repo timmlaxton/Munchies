@@ -17,7 +17,8 @@
 .recipe li {
   list-style: none;
   margin-right: 10px;
-  color: #777;
+  color: #000;
+  margin-top: 20px;
 }
 
 .recipe li::after {
@@ -31,4 +32,5 @@
 .method {
   text-align: left;
   line-height: 1.5em;
+  text-align: center;
 }
