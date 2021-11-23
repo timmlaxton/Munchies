@@ -42,7 +42,7 @@ const Create = () => {
     if (data) {
       navigate("/");
     }
-  }, [data]);
+  }, [data, navigate]);
 
   return (
     <div className="create">
