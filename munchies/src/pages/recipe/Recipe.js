@@ -1,6 +1,7 @@
 import React from "react";
 import { useFetch } from "../../hooks/useFetch";
 import { useParams } from "react-router-dom";
+import "./Recipe.css";
 
 const Recipe = () => {
   const { id } = useParams();
@@ -16,6 +17,12 @@ const Recipe = () => {
         <>
           <h2 className="page-title">{recipe.title}</h2>
           <p> Takes {recipe.cookingTime} to yum yum time </p>
+          <ul>
+            {recipe.ingredients.map((ing) => (
+              <li ket={ing}>{ing}</li>
+            ))}
+          </ul>
+          <p className="method">{recipe.method}</p>
         </>
       )}
     </div>
