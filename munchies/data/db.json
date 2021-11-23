@@ -3,7 +3,12 @@
     {
       "id": "1",
       "title": "Veggie Stew",
-      "ingredients": ["1 Carrot", "1 Leek", "200g Tofu", "300ml Veg stock"],
+      "ingredients": [
+        "1 Carrot",
+        "1 Leek",
+        "200g Tofu",
+        "300ml Veg stock"
+      ],
       "method": "1. Pre-heat the oven to 200C/3C/gas 5. Place the carrot, leek and tofu in a large bowl. Add the stock and mix well. 2. Add the rest of the ingredients and mix well. 3. Place the mixture in a large bowl and cover with a lid. 4. Place the lid on the oven and cook for 40 minutes. 5. Serve with a slaw of your choice",
       "cookingTime": "45 minutes",
       "image": "/images/garlic-oil-spaghetti.jpeg"
@@ -34,6 +39,46 @@
       "method": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse minima ex rem quis similique eum ratione quaerat, voluptas molestias ut repudiandae delectus voluptates. Eius esse at tenetur ab accusamus excepturi?",
       "cookingTime": "35 minutes",
       "image": "/images/pork-anchovie.jpeg"
+    },
+    {
+      "title": "Moose on Toast",
+      "ingredients": [
+        "Moose",
+        "Toast"
+      ],
+      "method": "Catch a moose, make toast, bring both moose and toast together as one",
+      "cookingTime": "57 minutes",
+      "id": "OjzsyW-"
+    },
+    {
+      "title": "Moose on Toast",
+      "ingredients": [
+        "Moose",
+        "Toast"
+      ],
+      "method": "Catch a moose, make toast, bring both moose and toast together as one",
+      "cookingTime": "57 minutes",
+      "id": "edWiXOS"
+    },
+    {
+      "title": "Eggs on Moose",
+      "ingredients": [
+        "Eggs",
+        "Moose"
+      ],
+      "method": "Gets some eggs, get a moose, crack eggs on Moose, good to go",
+      "cookingTime": "30 minutes",
+      "id": "aoATTLv"
+    },
+    {
+      "title": "Stuffed Weasel",
+      "ingredients": [
+        "Weasel",
+        "Struffing"
+      ],
+      "method": "Grab a weasel, stuff it, bobs your uncle",
+      "cookingTime": "200 minutes",
+      "id": "YV0EgV4"
     }
   ]
 }

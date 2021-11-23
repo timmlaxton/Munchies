@@ -19,7 +19,7 @@ const Recipe = () => {
           <p> Takes {recipe.cookingTime} to yum yum time </p>
           <ul>
             {recipe.ingredients.map((ing) => (
-              <li ket={ing}>{ing}</li>
+              <li key={ing}>{ing}</li>
             ))}
           </ul>
           <p className="method">{recipe.method}</p>
